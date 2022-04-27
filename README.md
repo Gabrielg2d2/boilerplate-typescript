@@ -2,7 +2,6 @@
 
 <aside>
 💡 Projeto levantado usando "create-react-app" com template em typescript.
-
 </aside>
 
 ### Introdução
