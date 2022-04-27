@@ -19,10 +19,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "test:coverage": "react-scripts test --coverage ",
-    "test:noWatch": "npm run test -- --passWithNoTests --watchAll=false",
+    "test": "jest",
     "test:watch": "npm run test -- --passWithNoTests --watchAll=true",
+    "test:coverage": "jest --coverage",
+    "test:noWatch": "npm run test -- --passWithNoTests --watchAll=false",
     "lint": "eslint ./src/**/*.{js,jsx,ts,tsx} --max-warnings=0",
     "prepare": "husky install",
     "commit": "git-cz",
