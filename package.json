@@ -27,7 +27,7 @@
     "test": "jest",
     "test:watch": "npm run test -- --passWithNoTests --watchAll=true",
     "test:noWatch": "npm run test -- --passWithNoTests --watchAll=false",
-    "test:coverage": "jest --coverage && npm run check-coverage"
+    "test:coverage": "jest --coverage"
   },
   "browserslist": {
     "production": [
