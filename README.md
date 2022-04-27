@@ -4,6 +4,10 @@
 💡 Projeto levantado usando "create-react-app" com template em typescript.
 </aside>
 
+###
+
+###
+
 > Atenção, no script "check-coverage", é possível definir a cobertura de testes que deseja para a aplicação.
 
 > Por padrão, está definido 100% de cobertura, caso não atenda, o commit não é realizado.
