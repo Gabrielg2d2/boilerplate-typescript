@@ -16,11 +16,7 @@ module.exports = {
       '<rootDir>/fileTransformer.js'
   },
   collectCoverage: false,
-  collectCoverageFrom: [
-    'src/**/*.{js,jsx,ts,tsx}',
-    '!stories/**/stories.tsx',
-    '!src/react-app-env.d.ts'
-  ],
+  collectCoverageFrom: ['src/components/**/*.{js,jsx,ts,tsx}'],
   setupFilesAfterEnv: ['<rootDir>/.jest/setupTests.ts'],
   modulePaths: ['<rootDir>/src/', '<rootDir>/.jest']
 }
