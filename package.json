@@ -26,7 +26,8 @@
     "lint": "eslint ./src/**/*.{js,jsx,ts,tsx} --max-warnings=0",
     "prepare": "husky install",
     "commit": "git-cz",
-    "pretty": "pretty-quick --staged"
+    "pretty": "pretty-quick --staged",
+    "check-coverage": "istanbul check-coverage --statements=100 --branches=100 --functions=100 --lines=100"
   },
   "browserslist": {
     "production": [
@@ -61,5 +62,10 @@
     "./src/**/*.{js,jsx,ts,tsx}": "npm run lint --fix",
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix",
     "*.{js,jsx,ts,tsx,css,md}": "prettier --write"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run check-coverage"
+    }
   }
 }
