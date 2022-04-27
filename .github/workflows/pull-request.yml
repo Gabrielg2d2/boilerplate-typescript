@@ -46,8 +46,6 @@ jobs:
 
         run: yarn lint
 
-      - name: Comment with Test Coverage
-        uses: dkershner6/jest-coverage-commenter-action@v1
-        with:
-          github_token: '${{ secrets.GITHUB_TOKEN }}'
-          test_command: 'yarn test:coverage'
+      - name: Run Jest test:noWatch
+
+        run: yarn test:noWatch
