@@ -5,13 +5,29 @@
 
 </aside>
 
-```tsx
-npx create react-app my-app --template typescript
-```
-
 ### Introdução
 
 Boilerplate com React e Typescript.
+
+### Instalar dependências
+
+```tsx
+npm i
+
+# ou
+
+yarn
+```
+
+**Levantar o projeto**
+
+```tsx
+npm run start
+
+# ou
+
+yarn start
+```
 
 ### Principais tecnologias:
 
