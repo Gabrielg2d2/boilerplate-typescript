@@ -1,4 +1,4 @@
-# Boilerplate
+# Boilerplate - "version": "0.1.0"
 
 <aside>
 💡 Projeto levantado usando "create-react-app" com template em typescript.
