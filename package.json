@@ -19,15 +19,15 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest",
-    "test:watch": "npm run test -- --passWithNoTests --watchAll=true",
-    "test:coverage": "jest --coverage",
-    "test:noWatch": "npm run test -- --passWithNoTests --watchAll=false",
     "lint": "eslint ./src/**/*.{js,jsx,ts,tsx} --max-warnings=0",
     "prepare": "husky install",
     "commit": "git-cz",
     "pretty": "pretty-quick --staged",
-    "check-coverage": "istanbul check-coverage --statements=100 --branches=100 --functions=100 --lines=100"
+    "check-coverage": "istanbul check-coverage --statements=100 --branches=100 --functions=100 --lines=100",
+    "test": "jest",
+    "test:watch": "npm run test -- --passWithNoTests --watchAll=true",
+    "test:noWatch": "npm run test -- --passWithNoTests --watchAll=false",
+    "test:coverage": "jest --coverage && npm run check-coverage"
   },
   "browserslist": {
     "production": [
