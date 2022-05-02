@@ -1,10 +1,9 @@
-import React from 'react'
-import { Title } from 'components/Title'
+import { Home } from 'page/Home'
 
 export function App() {
   return (
     <div>
-      <Title />
+      <Home />
     </div>
   )
 }
