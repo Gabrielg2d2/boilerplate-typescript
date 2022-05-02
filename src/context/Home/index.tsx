@@ -25,7 +25,7 @@ type HomeContextType = {
 const HomeContext = createContext({} as HomeContextType)
 
 export function HomeProvider({ children }: HomeProviderType) {
-  const testContext = 'testContextHome'
+  const testContext = 'Home Page Template'
   const [count, setCount] = useState(0)
 
   const useCounter = useCallback(() => {
